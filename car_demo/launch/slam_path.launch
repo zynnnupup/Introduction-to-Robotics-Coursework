@@ -1,0 +1,10 @@
+<launch>
+    <!-- 启动SLAM节点 -->
+    <include file="$(find car_demo)/launch/car_slam.launch" />
+    <!-- 运行move_base节点 -->
+    <include file="$(find car_demo)/launch/car_path.launch" />
+    <!-- 运行rviz -->
+    <include file="$(find car_demo)/launch/car_rviz_showing.launch"/>
+    <!-- 运行gazebo -->
+     <include file="$(find car_demo)/launch/car_gazebo_showing.launch"/>
+</launch>
