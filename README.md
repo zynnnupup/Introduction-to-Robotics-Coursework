@@ -9,3 +9,5 @@ There are many SLAM algorithms. Currently we use gmapping, which is a commonly u
 The gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map (like a building floorplan) from laser and pose data collected by a mobile robot. --2024.4.22
 ### path planning
 This time we are using A* algorithm, and we will gradually learn about new algorithms and transplant them in the future. --2024.4.22
+
+imported the d*lite algorithm. --4.30
