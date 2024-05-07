@@ -10,4 +10,4 @@ The gmapping package provides laser-based SLAM (Simultaneous Localization and Ma
 ### path planning
 This time we are using A* algorithm, and we will gradually learn about new algorithms and transplant them in the future. --2024.4.22
 
-imported the d*lite algorithm. --4.30
+imported the d*lite algorithm. --2024.4.30
